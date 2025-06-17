@@ -7,7 +7,7 @@ import { Copy } from 'lucide-react';
 interface Props {
   aiOutput: string;
 }
-//change
+
 const OutputSection = ({ aiOutput }: Props) => {
   const editorRef = useRef<Editor>(null);
 
